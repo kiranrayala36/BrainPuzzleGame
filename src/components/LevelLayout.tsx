@@ -1,7 +1,7 @@
 // components/LevelLayout.tsx
 import React, { ReactNode } from 'react';
 import { View, StyleSheet, SafeAreaView, Text, Alert } from 'react-native';
-import Constants from 'expo-constants';
+//import Constants from 'expo-constants';
 import { TopBar } from './TopBar';
 import { BottomBar } from './BottomBar';
 import { useNavigation } from '@react-navigation/native';
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#FFF8E1',
-    paddingTop: Constants.statusBarHeight,
+    //paddingTop: Constants.statusBarHeight,
   },
   title: {
     fontSize: 24,
